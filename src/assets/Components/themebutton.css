@@ -1,0 +1,239 @@
+.theme-btn {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 2px solid #ffc107;
+  background: #ffffff;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  z-index: 999;
+}
+
+.theme-btn:hover {
+  transform: scale(1.1) rotate(10deg);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.25);
+  background: #f0f0f0;
+}
+
+.theme-btn:active {
+  transform: scale(0.95);
+}
+
+.theme-icon {
+  width: 24px;
+  height: 24px;
+  display: inline-block;
+  transition: transform 0.3s ease;
+}
+
+.theme-btn:hover .theme-icon {
+  transform: rotate(-20deg);
+}
+
+/* Dark Theme Button Style */
+:root[data-theme="dark"] .theme-btn {
+  background: #1a1a1a;
+  border-color: #ffc107;
+  box-shadow: 0 4px 12px rgba(255, 193, 7, 0.2);
+}
+
+:root[data-theme="dark"] .theme-btn:hover {
+  background: #2d2d2d;
+  box-shadow: 0 6px 20px rgba(255, 193, 7, 0.3);
+}
+
+/* ===== FIXED THEME BUTTON (Bottom-Left) ===== */
+.theme-btn-fixed {
+  position: fixed;
+  bottom: 30px;
+  left: 30px;
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+  border: 2px solid #ffc107;
+  background: #ffffff;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  z-index: 998;
+}
+
+.theme-btn-fixed:hover {
+  transform: scale(1.15) rotate(15deg);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3);
+  background: #f0f0f0;
+}
+
+.theme-btn-fixed:active {
+  transform: scale(0.9);
+}
+
+.theme-icon-fixed {
+  width: 28px;
+  height: 28px;
+  display: inline-block;
+  transition: transform 0.3s ease, filter 0.3s ease;
+  filter: drop-shadow(0 2px 3px rgba(0, 0, 0, 0.15));
+}
+
+.theme-btn-fixed:hover .theme-icon-fixed {
+  transform: rotate(-25deg) scale(1.15);
+  filter: drop-shadow(0 3px 5px rgba(0, 0, 0, 0.25));
+}
+
+/* Dark Theme Button Style */
+:root[data-theme="dark"] .theme-btn-fixed {
+  background: #1a1a1a;
+  border-color: #ffc107;
+  box-shadow: 0 4px 15px rgba(255, 193, 7, 0.25);
+}
+
+:root[data-theme="dark"] .theme-btn-fixed:hover {
+  background: #2d2d2d;
+  box-shadow: 0 8px 25px rgba(255, 193, 7, 0.35);
+}
+
+:root[data-theme="dark"] .theme-icon-fixed {
+  filter: drop-shadow(0 2px 3px rgba(255, 193, 7, 0.2));
+}
+
+:root[data-theme="dark"] .theme-btn-fixed:hover .theme-icon-fixed {
+  filter: drop-shadow(0 3px 5px rgba(255, 193, 7, 0.3));
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .theme-btn-fixed {
+    width: 48px;
+    height: 48px;
+    bottom: 20px;
+    left: 20px;
+  }
+
+  .theme-icon-fixed {
+    width: 24px;
+    height: 24px;
+  }
+}
+
+@media (max-width: 480px) {
+  .theme-btn-fixed {
+    width: 45px;
+    height: 45px;
+    bottom: 15px;
+    left: 15px;
+  }
+
+  .theme-icon-fixed {
+    width: 22px;
+    height: 22px;
+  }
+}
+
+/* ===== GLOBAL THEME STYLES ===== */
+
+/* Light Theme (Default) */
+:root[data-theme="light"],
+:root {
+  --bg-primary: #ffffff;
+  --bg-secondary: #f5f5f5;
+  --text-primary: #000000;
+  --text-secondary: #333333;
+  --card-bg: #ffffff;
+  --navbar-bg: #343a40;
+  --border-color: #e0e0e0;
+}
+
+/* Dark Theme */
+:root[data-theme="dark"] {
+  --bg-primary: #1a1a1a;
+  --bg-secondary: #2d2d2d;
+  --text-primary: #ffffff;
+  --text-secondary: #e0e0e0;
+  --card-bg: #2d2d2d;
+  --navbar-bg: #1a1a1a;
+  --border-color: #444444;
+}
+
+/* Apply theme to body and main elements */
+:root[data-theme="dark"] body,
+:root[data-theme="dark"] {
+  background-color: var(--bg-primary);
+  color: var(--text-primary);
+}
+
+:root[data-theme="dark"] .card {
+  background-color: var(--card-bg) !important;
+  color: var(--text-primary) !important;
+  border-color: var(--border-color) !important;
+}
+
+:root[data-theme="dark"] .navbar {
+  background-color: var(--navbar-bg) !important;
+}
+
+:root[data-theme="dark"] h1,
+:root[data-theme="dark"] h2,
+:root[data-theme="dark"] h3,
+:root[data-theme="dark"] h4,
+:root[data-theme="dark"] h5,
+:root[data-theme="dark"] h6 {
+  color: var(--text-primary);
+}
+
+:root[data-theme="dark"] p,
+:root[data-theme="dark"] span,
+:root[data-theme="dark"] div {
+  color: var(--text-primary);
+}
+
+:root[data-theme="dark"] input,
+:root[data-theme="dark"] textarea,
+:root[data-theme="dark"] select {
+  background-color: var(--card-bg) !important;
+  color: var(--text-primary) !important;
+  border-color: var(--border-color) !important;
+}
+
+:root[data-theme="dark"] .form-control {
+  background-color: var(--card-bg) !important;
+  color: var(--text-primary) !important;
+  border-color: var(--border-color) !important;
+}
+
+:root[data-theme="dark"] .form-control::placeholder {
+  color: var(--text-secondary) !important;
+}
+
+:root[data-theme="dark"] button {
+  color: var(--text-primary) !important;
+}
+
+:root[data-theme="dark"] a {
+  color: #64b5f6;
+}
+
+:root[data-theme="dark"] .dropdown-menu {
+  background-color: var(--card-bg) !important;
+  border-color: var(--border-color) !important;
+}
+
+:root[data-theme="dark"] .dropdown-item {
+  color: var(--text-primary) !important;
+}
+
+:root[data-theme="dark"] .dropdown-item:hover,
+:root[data-theme="dark"] .dropdown-item:active {
+  background-color: var(--bg-secondary) !important;
+  color: var(--text-primary) !important;
+}
