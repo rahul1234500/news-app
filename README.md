@@ -1,86 +1,90 @@
-News Application (React.js)
+# **News Application (React.js)**
 
-A simple and responsive News Application built using React.js and Bootstrap, which fetches real-time news data using a News API. The application displays news in a card-based layout and allows users to explore news by category, search topics, and switch between light and dark modes.
+A simple and responsive **News Application** built using **React.js** and **Bootstrap**. The app fetches news data from a **News API** and displays it in a clean, card-based layout. Users can browse news by category, search topics, and switch between light and dark modes.
 
-🚀 Features
+---
 
-Category-wise news (Technology, Business, Sports, etc.)
+## **Features**
 
-Search functionality for news topics
+* Category-wise news (Technology, Business, Sports, etc.)
+* Search news by keyword
+* Previous search history
+* Trending news topics
+* Light / Dark mode toggle
+* Responsive UI using Bootstrap
 
-Previous search history tracking
+---
 
-Trending news topics section
+## **Tech Stack**
 
-Dark mode / Light mode toggle
+**Frontend:**
 
-Responsive card-based UI using Bootstrap
+* React.js
+* Bootstrap
+* HTML, CSS, JavaScript (ES6+)
 
-🛠️ Tech Stack
+**API:**
 
-Frontend
+* News API
 
-React.js
+**Tools:**
 
-Bootstrap
+* Git & GitHub
+* VS Code
 
-HTML, CSS
+---
 
-JavaScript (ES6+)
+## **How to Run the Project**
 
-API
+1. Clone the repository
 
-News API
-
-Tools
-
-Git & GitHub
-
-VS Code
-
-⚙️ How to Run the Project
-
-Clone the repository
-
+```bash
 git clone https://github.com/your-username/news-app.git
+```
 
+2. Go to project folder
 
-Navigate to the project folder
-
+```bash
 cd news-app
+```
 
+3. Install dependencies
 
-Install dependencies
-
+```bash
 npm install
+```
 
+4. Start the app
 
-Start the application
-
+```bash
 npm run dev
+```
 
+5. Open in browser
 
-Open in browser
-
+```
 http://localhost:5173
+```
 
-📌 Key Learning Outcomes
+---
 
-React component-based architecture
+## **What I Learned**
 
-API integration using fetch / Axios
+* React components and props
+* API integration
+* State management
+* Responsive UI design
+* Improving user experience with dark mode
 
-State management and props usage
+---
 
-Responsive UI development
+## **Author**
 
-User experience features like dark mode and search history
+**Rahul Kale**
+GitHub: [https://github.com/rahulkaledev](https://github.com/rahulkaledev)
 
-👨‍💻 Author
+---
 
-Rahul Kale
-GitHub: https://github.com/rahulkaledev
-
-📄 License
+## **License**
 
 © 2025 Rahul Kale. All rights reserved.
