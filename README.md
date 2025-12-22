@@ -1,16 +1,86 @@
-# React + Vite
+News Application (React.js)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple and responsive News Application built using React.js and Bootstrap, which fetches real-time news data using a News API. The application displays news in a card-based layout and allows users to explore news by category, search topics, and switch between light and dark modes.
 
-Currently, two official plugins are available:
+🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Category-wise news (Technology, Business, Sports, etc.)
 
-## React Compiler
+Search functionality for news topics
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Previous search history tracking
 
-## Expanding the ESLint configuration
+Trending news topics section
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Dark mode / Light mode toggle
+
+Responsive card-based UI using Bootstrap
+
+🛠️ Tech Stack
+
+Frontend
+
+React.js
+
+Bootstrap
+
+HTML, CSS
+
+JavaScript (ES6+)
+
+API
+
+News API
+
+Tools
+
+Git & GitHub
+
+VS Code
+
+⚙️ How to Run the Project
+
+Clone the repository
+
+git clone https://github.com/your-username/news-app.git
+
+
+Navigate to the project folder
+
+cd news-app
+
+
+Install dependencies
+
+npm install
+
+
+Start the application
+
+npm run dev
+
+
+Open in browser
+
+http://localhost:5173
+
+📌 Key Learning Outcomes
+
+React component-based architecture
+
+API integration using fetch / Axios
+
+State management and props usage
+
+Responsive UI development
+
+User experience features like dark mode and search history
+
+👨‍💻 Author
+
+Rahul Kale
+GitHub: https://github.com/rahulkaledev
+
+📄 License
+
+© 2025 Rahul Kale. All rights reserved.
