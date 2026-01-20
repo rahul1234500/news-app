@@ -83,10 +83,6 @@ http://localhost:5173
 <div align="center">
 
 <table>
-
-<img width="1920" height="1080" alt="Screenshot 2026-01-20 172722" src="https://github.com/user-attachments/assets/25ef65dd-bac5-4964-99fe-a660de39e0ab" />
-
-
   <tr>
     <td align="center">
       <img width="400" height="450" alt="Screenshot 2026-01-20 172248" src="https://github.com/user-attachments/assets/4ef3bae1-2521-4a54-820c-f5a539941469" /><br/>
@@ -99,7 +95,33 @@ http://localhost:5173
   </tr>
 </table>
 
+</div> 
+
+---
+## 📸 Demo Video 
+
+
+## 🎥 Demo Video
+
+<div align="center">
+
+<table>
+  <tr>
+    <td align="center">
+      <a href="https://github.com/user-attachments/assets/3f62fd48-8a1d-41ab-87b9-a1e8083a3cb8">
+        <img src="screenshots/video-thumbnail.png" width="420"/>
+      </a>
+      <br/>
+      <b>News App – Full Demo (MP4)</b>
+    </td>
+  </tr>
+
+</table>
+
 </div>
+
+
+
 
 
 ## **Author**
