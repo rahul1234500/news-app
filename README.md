@@ -78,6 +78,30 @@ http://localhost:5173
 
 ---
 
+## 📸 Screenshots
+
+<div align="center">
+
+<table>
+
+<img width="1920" height="1080" alt="Screenshot 2026-01-20 172722" src="https://github.com/user-attachments/assets/25ef65dd-bac5-4964-99fe-a660de39e0ab" />
+
+
+  <tr>
+    <td align="center">
+      <img width="400" height="450" alt="Screenshot 2026-01-20 172248" src="https://github.com/user-attachments/assets/4ef3bae1-2521-4a54-820c-f5a539941469" /><br/>
+      <b>Technology News</b>
+    </td>
+    <td align="center">
+      <img width="400" height="450" alt="Screenshot 2026-01-20 172722" src="https://github.com/user-attachments/assets/25ef65dd-bac5-4964-99fe-a660de39e0ab" /><br/>
+      <b>Search Results</b>
+    </td>
+  </tr>
+</table>
+
+</div>
+
+
 ## **Author**
 
 **Rahul Kale**
